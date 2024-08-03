@@ -22,8 +22,6 @@ config = configparser.ConfigParser()
 
         
 config.read('config.ini')
-
-        # อ่านค่า exit_time จากเซคชัน DEFAULT
 TOKEN_LINE = config.get('DEFAULT', 'token_line')
 WALLET = config.get('DEFAULT', 'wallet')
 PRIVATE_KEY = config.get('DEFAULT', 'private_key')
